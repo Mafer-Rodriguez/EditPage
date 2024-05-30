@@ -1,0 +1,65 @@
+body {
+  background-color: #fff5e6;
+  color: #4d2600;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffdab3;
+}
+
+h2 {
+  color: #cc5200;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e65c00;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #cc5200;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  align-self: flex-start;
+  margin-top: 20px;
+}
